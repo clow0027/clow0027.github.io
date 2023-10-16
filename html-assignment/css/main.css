@@ -19,3 +19,7 @@ header, footer{
 #hobbies-list{
     list-style: square;
 }
+/* Using the nth-child selector - add a background to the odd list items in the hobby list */
+#hobbies-list li:nth-child(odd){
+    background-color: sandybrown;
+}
