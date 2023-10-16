@@ -12,3 +12,6 @@ header, footer{
     color: saddlebrown;
 }
 /* Id selector - add an id my-image to your image and select the id in CSS to add a box-shadow with 0 horizontal and vertical placement, 2px of the blur, 1px of the spread and black colour */
+#my-image{
+    box-shadow: 0 0 2px 1px black;
+}
