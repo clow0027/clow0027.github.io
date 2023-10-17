@@ -6,6 +6,7 @@ The short cut for adding the comment is commands/CTRL + /
  body{
     font-family: Arial, Helvetica, sans-serif; 
     color: darkslategray;
+    background-image: url(../images/white_brick_wall.png);
  }
  h1{
     color: cadetblue;
@@ -33,7 +34,18 @@ The short cut for adding the comment is commands/CTRL + /
 /* Selecting HTML elements with ID value */
 /* Best practice is to avoid uisng ID for styles. We do this for specificity. IDs overwrite classes so we don't want to use them. */
  #treatoftheweek {
-    background-color: cadetblue;
+    /* To fill the background image you need the colour, the image, the repeat, position-x, and position-y */
+    background: cadetblue url(../images/bread.jpg) no-repeat center;
+    /* background-size  */
+    background-size: cover;
+    font-size: 1.25rem
+    /* 16px multiplied by 1.25 = 20px */
+    /* padding pushes the elements away from the walls */
+    padding: 1em
+    /* 1em multiplied by 20px (element font size) = 20px */
+    width: 50%
+    /* height is 100% of the browser size and it is dynamic */
+
  }
  /*Selecting HTML elements with class name  */
  .blue-link{
@@ -52,6 +64,14 @@ The short cut for adding the comment is commands/CTRL + /
 article>p{
     font-size: 24px;
 }
+/* CSS Typography properties */
+article p{
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: lowercase;
+    text-align: center;
+}
+
 /* Adjacent sibling selector - this will only select the element that is the very next sibling to the selected parent element, if any exist. */
 h3+ul{
     border: 1px solid black
@@ -76,7 +96,7 @@ nav ul a:visited {
     background-color: antiquewhite;
 /*Value Order: horizontal, vertical, blur, spread, and color */
 /* /- = left for horizontal, - = down for vertical */
-    box-shadow: -2px 2px 4px 2px #000; */
+    box-shadow: -2px 2px 4px 2px #000; 
 }
 /* add class of current to HTML home link after adding hover and focus*/
     nav ul.current
