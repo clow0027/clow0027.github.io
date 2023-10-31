@@ -25,7 +25,7 @@ The short cut for adding the comment is commands/CTRL + /
  }
  img{
     /* Always use 100% it auto adjusts the size. */
-    width: 100%
+    width: 100%;
  }
  h1{
     color: cadetblue;
@@ -63,14 +63,23 @@ nav ul li {
     background: cadetblue url(../images/bread.jpg) no-repeat center;
     /* background-size  */
     background-size: cover;
-    font-size: 1.25rem
+    font-size: 1.25rem;
     /* 16px multiplied by 1.25 = 20px */
     /* padding pushes the elements away from the walls */
-    padding: 1em
+    padding: 1em;
     /* 1em multiplied by 20px (element font size) = 20px */
-    width: 50%
+    width: 50%;
     /* height is 100% of the browser size and it is dynamic */
+    position: relative;
+    padding: 1em 1em 4em 1em;
 
+ }
+
+ /* Position Absolute */
+ .blue-link.large-text{
+    position:absolute;
+    bottom: 0; 
+    right: 0;
  }
  /*Selecting HTML elements with class name  */
  .blue-link{
@@ -134,6 +143,18 @@ h3~p{
 [src$=".jpg"]{
     border:4px solid darkslategray
 }
+
+/* fixed navigation */
+nav {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+
+
+}
+
 /* pseudo classes */
 /* styling the navigation menu */
 nav ul a, 
