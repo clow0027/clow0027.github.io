@@ -1,5 +1,152 @@
-/* Adds background colour */
+/* Choosing body text colour and font family */
 body{
     background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
+/* Styling everything inside of the body */
+.container{
+    background-color: #e7eeed;
+    margin: auto;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+/* Styling Header */
+header{
+    position: relative;
+    margin-bottom: 0%;
+}
+
+.site-title{
+    color: white;
+    position: absolute;
+    margin: auto;
+    top: 200px;
+    left: 300px;
+    font-size: 90px;
+}
+
+#image-wide{
+    width:100%;
+    height: auto;
+    display: block;
+}
+
+/* Styling Nav Ul to be three in-line boxes */
+nav{ 
+    text-align: center;
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+    height: 40px;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration:none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 0%;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+.nav-border{
+    border-left: 1px solid black;
+    height: 50px;
+    margin-bottom:0px;
+    padding-bottom: 0px;
+}
+/* Life of a Starfish */
+#second-image{
+    width: 180px;
+    float: left;
+    padding: 10px;
+}
+
+article{
+    padding: 10px;
+}
+
+h2{
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+p{
+    font-size: 17px;
+}
+/* Facts Section */
+h3{
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: auto;
+}
+.facts{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    width: 900px;
+}
+/* Form Section */
+h4{
+    padding: 20px;
+    font-size:20px;
+}
+
+.name{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#fullname{
+    width: 1000px;
+}
+.email{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#youremail{
+    width: 1000px;
+}
+.message{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#message{
+    width: 1000px;
+}
+.visit{
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+form{
+    font-size: 17px;
+    background-color: #e7eeed;
+    width: 1000px;
+    height: 600px;
+    border: 4px solid black;
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.submit-button{
+    background-color: #e7eeed;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+/* Positioning Copyright */
+.copyright{
+    padding: 20px;
+    text-align: right;
+    font-size: 12px;
+}
+/* background color #aad4cf */
