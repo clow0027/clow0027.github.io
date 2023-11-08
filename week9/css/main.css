@@ -88,11 +88,12 @@ p{
 .desktop-logo{
     display: none;
 }
-.banner{
+.banner {
     height: 600px;
-    background: grey url(../images/smog-mobile.jpg) no repeat center bottom;
+    background: grey url(../images/smog-mobile.jpg) no-repeat center bottom;
     background-size: cover;
 }
+
 .banner h1{
     margin: 0;
     padding-top: 250px;
@@ -127,5 +128,38 @@ p{
     text-align: right;
 }
 
+/* ***************************
+        DESKTOP STYLES
+********************** */
+@media screen and (min-width:600px) {
+    html{
+        font-size: 16px;
+    }
+    .mobile-logo{
+        display: none;
+    }
+    .desktop-logo{
+        display: inline-block;
+        max-width: 300px;
+    }
+    .banner{
+        background-image: url(../images/smog-desktop.jpg);
+    }
+    .banner h1{
+        color: white;
+    }
+    /* ****************APP SECTION************* */
+    .app img{
+        width: 40%;
+        float: left;
+        margin-right: 1em;
+    }
+    .app .btn{
+        float: right;
+    }
+
+
+
+}
 
 
