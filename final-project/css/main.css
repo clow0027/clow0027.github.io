@@ -10,55 +10,43 @@ html {
 /* Setting the maximum width of the container to 1200px*/
 .container {
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
+    padding: 1em;
 }
 
 /* Changing background colour of nav and header*/
-header,
-nav {
+header{
     background-color: #222;
 }
 
 /* NAVIGATION*/
 
-/* center nav section content */
-nav ul li,
-nav form {
+/* Get rid of bullet list */
+ul{
+    list-style-type:none;
+}
+
+.nav-list{
+    text-decoration-color: #c78c06;
+}
+
+/* LoVE HAte Link Visited Hover And Focus */
+.nav-list a,
+.nav-list :link,
+.nav-list a:visited{
+    display: block;
+    padding: 1em 0;
     text-align: center;
-}
-
-/* Get rid of auto bullet points */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-/* LoVe HAte: link, visited, hover/focus, active*/
-li a {
-    text-decoration-color: #c78c06;
-}
-
-li a:link {
-    text-decoration-color: #c78c06;
-}
-
-li a:visited {
-    text-decoration-color: #c78c06;
-}
-
-li a:hover {
     text-decoration: none;
-    background-color: #c78c06;
-    color: #222;
 }
 
-li a:active {
-    text-decoration-color: #c78c06;
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current{
+    background: #c78c06;
+    color: inherit;
+    text-decoration: none;
 }
-
-
-
 
 /***********DESKTOP STYLES**********/
 /* Adding a min-width media query for the screen size of 760px and above*/
