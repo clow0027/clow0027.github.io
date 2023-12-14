@@ -21,6 +21,10 @@ nav ul li{
     text-decoration: none;
 }
 
+nav ul li, nav form{
+    text-align: center;
+}
+
 /***********DESKTOP STYLES**********/
 /* Adding a min-width media query for the screen size of 760px and above*/
 @media screen and (min-width: 760px){
