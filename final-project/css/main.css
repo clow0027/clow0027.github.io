@@ -1,4 +1,38 @@
+/**********GLOBAL STYLES**********/
+
 /*ADDING  'Open Sans' FONT FAMILY */
 body{
     font-family: 'open sans', sans-serif;
+}
+
+/***********NAVIGATION***********/
+nav{
+    background-color: #222;
+}
+/***********DESKTOP STYLES**********/
+@media screen and (min-width: 760px){
+    body{
+      font-size: 1.25rem;
+    }
+  /* everything that will be your desktop styles will be in here. */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
