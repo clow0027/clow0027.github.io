@@ -11,14 +11,18 @@
 body{
     font-family: 'open sans', sans-serif;
 }
-header{
+/* Changing background colour of nav and header*/
+header, nav{
     background-color: #222;
 }
-/***********NAVIGATION***********/
-nav{
-    background-color: #222;
+/* Nav */
+nav ul li{
+    list-style: none;
+    text-decoration: none;
 }
+
 /***********DESKTOP STYLES**********/
+/* Adding a min-width media query for the screen size of 760px and above*/
 @media screen and (min-width: 760px){
     body{
       font-size: 1.25rem;
