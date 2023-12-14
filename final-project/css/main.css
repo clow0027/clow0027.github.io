@@ -1,10 +1,19 @@
 /**********GLOBAL STYLES**********/
 
 /*ADDING  'Open Sans' FONT FAMILY */
+
+/* Setting the maximum width of the container to 1200px*/
+.container{
+    max-width: 1200px;
+    margin:auto;
+}
+
 body{
     font-family: 'open sans', sans-serif;
 }
-
+header{
+    background-color: #222;
+}
 /***********NAVIGATION***********/
 nav{
     background-color: #222;
