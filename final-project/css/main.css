@@ -1,37 +1,73 @@
 /**********GLOBAL STYLES**********/
 
 /*ADDING  'Open Sans' FONT FAMILY */
+/* Establishing font family and size */
+html {
+    font-family: 'open sans', sans-serif;
+    font-size: 14px;
+}
 
 /* Setting the maximum width of the container to 1200px*/
-.container{
+.container {
     max-width: 1200px;
-    margin:auto;
+    margin: auto;
 }
 
-body{
-    font-family: 'open sans', sans-serif;
-}
 /* Changing background colour of nav and header*/
-header, nav{
+header,
+nav {
     background-color: #222;
 }
-/* Nav */
-nav ul li{
-    list-style: none;
-    text-decoration: none;
-}
 
-nav ul li, nav form{
+/* NAVIGATION*/
+
+/* center nav section content */
+nav ul li,
+nav form {
     text-align: center;
 }
 
+/* Get rid of auto bullet points */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* LoVe HAte: link, visited, hover/focus, active*/
+li a {
+    text-decoration-color: #c78c06;
+}
+
+li a:link {
+    text-decoration-color: #c78c06;
+}
+
+li a:visited {
+    text-decoration-color: #c78c06;
+}
+
+li a:hover {
+    text-decoration: none;
+    background-color: #c78c06;
+    color: #222;
+}
+
+li a:active {
+    text-decoration-color: #c78c06;
+}
+
+
+
+
 /***********DESKTOP STYLES**********/
 /* Adding a min-width media query for the screen size of 760px and above*/
-@media screen and (min-width: 760px){
-    body{
-      font-size: 1.25rem;
+@media screen and (min-width: 760px) {
+    body {
+        font-size: 1.25rem;
     }
-  /* everything that will be your desktop styles will be in here. */
+
+    /* everything that will be your desktop styles will be in here. */
 
 
 
