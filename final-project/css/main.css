@@ -173,11 +173,16 @@ main{
     height: auto;
 }
 /* styling all card buttons to be uniform */
+/* HELP why is my text stuck to the side of my container */
 .card button{
     padding: 30px;
     font-size: 1.5rem;
     background-color: #222;
     color: #ffff;
+    margin-left:1rem;
+}
+.card p, h3{
+    padding:1rem;
 }
 
 
