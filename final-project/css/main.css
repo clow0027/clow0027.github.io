@@ -7,6 +7,10 @@ html {
     font-size: 16px;
 }
 
+header{
+    margin: 0 auto;
+}
+
 /* Proportionate font sizes from week 11 lesson */
 h1{
     font-size: 5.063rem;
@@ -120,8 +124,7 @@ nav button{
 /* HELP: how do I get my content away from the edge?! how do I get the text to be where it should be?*/
 #overlay{
     height: 450px;
-    background-color: #222;
-    opacity: 75%;
+    background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     margin: auto;
     
@@ -139,6 +142,13 @@ main{
     font-size: 1.5rem;
     opacity: 100%;
 }
+/* ABOUT US */
+.about-mobile{
+    background-color: #ffe6ac;
+    width: 100%;
+    margin: 0 auto;
+}
+
 
 /***********DESKTOP STYLES**********/
 /* Adding a min-width media query for the screen size of 760px and above*/
