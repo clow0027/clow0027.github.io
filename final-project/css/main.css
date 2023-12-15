@@ -327,6 +327,16 @@ td, th{
 
 /* MAP SECTION */
 
+/* Keep spacing of title with corresponding content consistent */
+.location h3{
+    padding-bottom: 1rem;
+}
+/* Changes size of map to fit container and be more visible */
+iframe{
+    height: 400px;
+    width: 100%;
+}
+
 /***********DESKTOP STYLES**********/
 /* Adding a min-width media query for the screen size of 760px and above*/
 @media screen and (min-width: 760px) {
