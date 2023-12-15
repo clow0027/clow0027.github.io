@@ -100,6 +100,7 @@ form{
     font-size: 1.5rem;
     padding: 0.5rem;
     border: 1px solid #c78c06;
+    margin-bottom: 1rem;
 }
 /* Adding border to magnifying glass button, coloring the border, text, background, adding padding */
 nav button{
@@ -108,6 +109,7 @@ nav button{
     background-color: #222;
     color: #c78c06;
     border: 1px solid #c78c06;
+    margin-bottom: 1rem;
 }
 
 /* WELOME SECTION */
@@ -120,6 +122,14 @@ nav button{
     padding-top: 5rem;
     padding-bottom: 5rem;
     color:white;
+}
+.banner p, h1{
+    padding: 5px;
+}
+
+.banner button{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 /* HELP: how do I get my content away from the edge?! how do I get the text to be where it should be?*/
 #overlay{
@@ -147,8 +157,7 @@ main{
 .about-mobile{
     background-color: #ffe6ac;
     width: 100%;
-    margin: 0 auto;
-    padding: 1em;
+    padding: 1rem;
 }
 /* Positions image properly to the container */
 .about-mobile img{
@@ -215,7 +224,80 @@ main{
     margin-left: 1rem;
 }
 /* OUR TEAM SECTION */
+.team{
+    margin: 0 auto;
+    width: 100%;
+}
+ .team h2{
+    margin-left: 1rem;
+ }
+/* Using class "owners" I will style the cards as much as possible without having to repeat commands for each div/section */
+.owners{
+    background-color: #ffe6ac;
 
+}
+
+.owners img{
+    width:100%;
+    height: auto;
+}
+/* Coloring and spacing the horizontal line to container content*/
+/* HELP: how do I shorten the hr? */
+.owners hr{
+    height: 0.1rem;
+    background-color: #c78c06;
+    border: none;
+}
+/* Spacing h3 to container */
+.owners h3{
+    padding-bottom: 0.1rem;
+}
+/* Spacing h4 to align with h3 */
+/* HELP: how tf do I do that? */
+.owners h4{
+    margin-left: 1rem;
+}
+/* HELP: how do I move my text up? */
+.owners p{
+    padding: 1rem;
+}
+
+/* CONTACT SECTION */
+/* HELP: how tf do I space the text the way I want? */
+.contact form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    margin-left: 1rem;
+}
+
+.contact input{
+    border: 1px black solid;
+    width: 100;
+}
+
+.contact input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+/* Make message textarea box bigger than the input boxes, but keep the width and border */
+.contact textarea{
+    width: 100%;
+    border: 1px black solid;
+    resize: none;
+    height: 200px;
+}
+/* Formats button to be the same text size as all other buttons but makes button much more closely fitted, as seen in example photo */
+.contact button{
+    background-color: #222;
+    color: #c78c06;
+    border: solid black 1px;
+    padding: 1rem;
+    width: fit-content;
+    font-size: 1.5rem;
+}
 
 
 /***********DESKTOP STYLES**********/
