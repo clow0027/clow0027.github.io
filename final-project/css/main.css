@@ -93,14 +93,14 @@ form{
 /* Positioning and stylizing the search bar to be longer and same text size as nav ul li */
 .search {
     width: 90%;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 0.5rem;
     border: 1px solid #c78c06;
 }
 /* Adding border to magnifying glass button, coloring the border, text, background, adding padding */
 nav button{
     width: 10%;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     background-color: #222;
     color: #c78c06;
     border: 1px solid #c78c06;
@@ -108,28 +108,13 @@ nav button{
 main{
     width: 100%;
 }
-/* STYLING ABOUT US SECTION */
-/* background color */
-.about-mobile{
-    background-color: #ffe6ac;
-    margin: 0 auto;
-    margin: 1rem;
-}
-.about-mobile img{
-    width: 100%;
-    height: auto;
-    margin: 1em;
-}
-.about-mobile h2{
-    margin: 0;
-}
 
-.services{
-    width:auto;
-    margin: auto;
+.connectwithus{
+    background-color: #c78c06;
+    padding: 2rem;
+    border: 0;
+    font-size: 1.5rem;
 }
-
-
 
 /***********DESKTOP STYLES**********/
 /* Adding a min-width media query for the screen size of 760px and above*/
