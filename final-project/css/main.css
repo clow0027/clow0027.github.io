@@ -143,18 +143,43 @@ main{
     opacity: 100%;
 }
 /* ABOUT US */
-/* HELP: padding throws off the alignment with previous section */
+/* HELP: padding throws off the alignment with previous */
 .about-mobile{
     background-color: #ffe6ac;
     width: 100%;
     margin: 0 auto;
     padding: 1em;
 }
-
+/* Positions image properly to the container */
 .about-mobile img{
     width: 100%;
     height:auto;
 }
+
+/* OUR SERVICES */
+.services{
+    margin: 0 auto;
+    width: 100%;
+}
+/* using card class to style as much of the included sections (digital, marketing, video, web, print) as possible, making less work for myself */
+/* styling all cards for background color and margin */
+.card{
+    background-color: #ffe6ac;
+    margin-bottom: 1rem;
+}
+/* styling all cards to have an image that fits the container */
+.card img{
+    width: 100%;
+    height: auto;
+}
+/* styling all card buttons to be uniform */
+.card button{
+    padding: 30px;
+    font-size: 1.5rem;
+    background-color: #222;
+    color: #ffff;
+}
+
 
 /***********DESKTOP STYLES**********/
 /* Adding a min-width media query for the screen size of 760px and above*/
