@@ -105,8 +105,28 @@ nav button{
     color: #c78c06;
     border: 1px solid #c78c06;
 }
+
+/* WELOME SECTION */
+/* Styling background image and text color*/
+.banner{
+    height: 500px;
+    background-image: url(../images/main-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color:white;
+}
+/* won't work - get help also how do I get my content away from the edge?!*/
+#overlay{
+    background-color: #222;
+    opacity: 50%;
+    width: 100%;
+}
+/* Centering content of main horizontally within container */
 main{
     width: 100%;
+    margin:auto;
 }
 
 .connectwithus{
