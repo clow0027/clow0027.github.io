@@ -22,8 +22,15 @@ header{
 /* NAVIGATION*/
 
 /* Get rid of bullet list */
+nav{
+    background-color: #222;
+}
+
 ul{
     list-style-type:none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-list{
@@ -35,8 +42,7 @@ ul{
 .nav-list :link,
 .nav-list a:visited{
     display: block;
-    padding: 1em 0;
-    text-align: center;
+    padding: 20px;
     text-decoration: none;
     background-color: #222;
     color: #c78c06;
@@ -53,7 +59,11 @@ ul{
     background: #c78c06;
     color: inherit;
     text-decoration: none;
-    padding-top: 150px;
+}
+.logo{
+    float: left;
+    margin-right: 100%;
+    margin-bottom: 10%;
 }
 
 /***********DESKTOP STYLES**********/
