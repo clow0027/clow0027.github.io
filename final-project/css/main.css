@@ -335,7 +335,26 @@ td, th{
 iframe{
     height: 400px;
     width: 100%;
+    padding-bottom: 1rem;
 }
+/* FOOTER SECTION */
+/* Makes footer background color and text color same as web theme */
+footer{
+    background-color: #222;
+    color:#c78c06;
+    padding: 0.5rem;
+}
+/* Pushes text in a little, as seen in assignment guidline photo */
+footer p{
+    margin-left: 1rem;
+}
+/* Styles link like rest of footer */
+footer a{
+    color: inherit;
+    text-decoration: underline;
+}
+
+
 
 /***********DESKTOP STYLES**********/
 /* Adding a min-width media query for the screen size of 760px and above*/
