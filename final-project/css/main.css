@@ -7,10 +7,32 @@ html {
     font-size: 16px;
 }
 
+/* Proportionate font sizes from week 11 lesson */
+h1{
+    font-size: 5.063rem;
+}
+h2{
+    font-size: 3.375rem;
+}
+h3{
+    font-size: 2.25rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+h5{
+    font-size: 1rem;
+}
+
+p{
+    margin: 1em 0;
+}
+
 /* Setting the maximum width of the container to 1200px*/
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 1.5 rem;
 }
 
 /* NAVIGATION*/
@@ -18,7 +40,6 @@ html {
 /* Adding background color to nav */
 nav{
     background-color: #222;
-    font-size: 20px;
 }
 
 /* Deleting bullet list to nav */
@@ -32,6 +53,10 @@ ul{
 
 /* Adding color to nav list and taking away list style */
 
+/* adding margin to achieve the grey on the sides of the yellow, as seen in the mock-up photo */
+nav ul{
+    margin: 1em;
+}
 nav li a {
     display: block;
     padding: 20px;
@@ -61,21 +86,48 @@ nav li a {
     margin-right: 100%;
     margin-bottom: 10%;
 }
+/* Makes form display flex, allowing magnifying glass to line up with search bar. */
+form{
+    display: flex;
+}
 /* Positioning and stylizing the search bar to be longer and same text size as nav ul li */
 .search {
     width: 90%;
-    margin-bottom: 10%;
-    font-size: 20px;
-    padding: 8px;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border: 1px solid #c78c06;
 }
 /* Adding border to magnifying glass button, coloring the border, text, background, adding padding */
 nav button{
-    color:#c78c06;
+    width: 10%;
+    font-size: 1.3rem;
     background-color: #222;
-    border: 2px solid #c78c06;
-    padding: 10px;
+    color: #c78c06;
+    border: 1px solid #c78c06;
+}
+main{
+    width: 100%;
+}
+/* STYLING ABOUT US SECTION */
+/* background color */
+.about-mobile{
+    background-color: #ffe6ac;
+    margin: 0 auto;
+    margin: 1rem;
+}
+.about-mobile img{
+    width: 100%;
+    height: auto;
+    margin: 1em;
+}
+.about-mobile h2{
+    margin: 0;
 }
 
+.services{
+    width:auto;
+    margin: auto;
+}
 
 
 
