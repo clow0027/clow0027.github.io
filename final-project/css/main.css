@@ -186,6 +186,33 @@ main{
     margin-left: 1rem;
 }
 
+/* OUR VISION */
+
+.vision{
+    background-image: url(../images/vision.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height:300px;
+    margin:1rem;
+    color: #ffff;
+}
+.vision button{
+    padding: 30px;
+    font-size: 1.5rem;
+    background-color: #222;
+    color: #ffff;
+    border:1px solid #c78c06;
+    margin-left:1rem;
+    margin-bottom:1rem;
+}
+.vision h3{
+    padding-top: 2rem;
+}
+
+.vision p, h3{
+    margin-left: 1rem;
+}
 
 /***********DESKTOP STYLES**********/
 /* Adding a min-width media query for the screen size of 760px and above*/
