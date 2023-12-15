@@ -187,7 +187,7 @@ main{
 }
 
 /* OUR VISION */
-
+/* formating container to support elements and include bg image */
 .vision{
     background-image: url(../images/vision.jpg);
     background-position: center;
@@ -197,6 +197,7 @@ main{
     margin:1rem;
     color: #ffff;
 }
+/* formating button to fit container */
 .vision button{
     padding: 30px;
     font-size: 1.5rem;
@@ -206,13 +207,16 @@ main{
     margin-left:1rem;
     margin-bottom:1rem;
 }
+/* spacing the text within the container */
 .vision h3{
     padding-top: 2rem;
 }
-
 .vision p, h3{
     margin-left: 1rem;
 }
+/* OUR TEAM SECTION */
+
+
 
 /***********DESKTOP STYLES**********/
 /* Adding a min-width media query for the screen size of 760px and above*/
