@@ -491,33 +491,45 @@ footer a {
         grid-column: 5 / 7;
         grid-row: 2 / 3;
     }
+
+    /* OUR TEAM */
+    /* Creates a flex to have the image and text on opposite sides */
+     .owners{
+        display: flex;
+     }
     
+     .owners:nth-child(3){
+        flex-direction: row-reverse;
+     }
 
-    
+     /* CONTACT US & LOCATION */
 
+     /* creates grid to show contact form and location side by side */
+     .contact-loco{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        align-content: center;
+        gap: 1rem;
+     }
+     /* places contact form on left */
+     .contact-loco section:first-child{
+        order:1;
+    }
+    /* places location/map on right */
+    .contact-loco section:nth-child(3){
+        order:2;
+    }
 
+    /* places hours of operation form on bottom, spanning all rows */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .contact-loco section:nth-child(2){
+        order:3;
+        grid-column: 1 / 3;
+    }
+    /* Adds margin size to bottom of table so it doesn't touch the footer */
+    .schedule{
+        margin-bottom: 1em;
+    }
 
 }
