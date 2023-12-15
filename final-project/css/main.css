@@ -117,23 +117,27 @@ nav button{
     padding-bottom: 5rem;
     color:white;
 }
-/* won't work - get help also how do I get my content away from the edge?!*/
+/* HELP: how do I get my content away from the edge?! how do I get the text to be where it should be?*/
 #overlay{
+    height: 450px;
     background-color: #222;
-    opacity: 50%;
+    opacity: 75%;
     width: 100%;
+    margin: auto;
+    
 }
 /* Centering content of main horizontally within container */
 main{
     width: 100%;
     margin:auto;
 }
-
+/* Styling main banner button to be right color and spacing */
 .connectwithus{
     background-color: #c78c06;
     padding: 2rem;
     border: 0;
     font-size: 1.5rem;
+    opacity: 100%;
 }
 
 /***********DESKTOP STYLES**********/
