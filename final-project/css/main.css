@@ -522,64 +522,47 @@ footer a {
 
     /* OUR TEAM */
     /* Creates a flex to have the image and text on opposite sides */
-    .team {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    /* Flex container for each team member */
-    /* OUR TEAM */
     
     .team {
         display: flex;
         flex-direction: column;
-        align-items: center; 
         width: 100%;
     }
-    
+    .team h2{
+        margin: 1rem;
+        text-align: left;
+    }
     .owners {
         display: flex;
         width: 100%; 
         align-items: center;
     }
     
-    /* John */
-    .owners:first-child img {
-        order: 1; 
+    .owners:nth-child(1) img {
+        order: 2;
     }
     
-    .owners:first-child div {
-        order: 2; 
-        text-align: right;
+    .owners:nth-child(1) div {
+        order: 1;
     }
     
-    /* Bob */
     .owners:nth-child(2) img {
-        order: 2; 
+        order: 1;
     }
     
     .owners:nth-child(2) div {
-        order: 1; 
-        text-align: left; 
+        order: 2;
     }
     
     .owners img, .owners div {
-        flex-basis: 50%; 
-        margin: 0;
+        width: 50%;
     }
     
     .owners img {
-        margin-right: 0;
+        object-fit: cover;
+        height: auto;
     }
     
-    .owners div {
-        margin-left: 0;
-    }
-    
-    .owners div {
-        padding: 1em;
-    }
     
     /* CONTACT US & LOCATION */
     .contact h2{
